@@ -8,4 +8,8 @@ spec:
   ports:
   - protocol: TCP 
     port: 80
-    targetPort: 8080                
+    targetPort: 8080
+
+dil ke darvase khole ke bate har khushi HAR KHUSHI
+jab ham bade ho jayenge to kya ye sab bhul jayenge 
+tab bhi ham sab sochenge ke fir se ham bachpan jie                 
