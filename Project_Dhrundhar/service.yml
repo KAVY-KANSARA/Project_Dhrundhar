@@ -12,4 +12,58 @@ spec:
 
 dil ke darvase khole ke bate har khushi HAR KHUSHI
 jab ham bade ho jayenge to kya ye sab bhul jayenge 
-tab bhi ham sab sochenge ke fir se ham bachpan jie                 
+tab bhi ham sab sochenge ke fir se ham bachpan jie 
+
+
+BRANCHING
+
+in the path desktop/batch_11/Project_Dhrundhar/
+create
+git branch development
+git branch
+git switch development
+create new file in Project_Dhrundhar folder named ingress.yml add some content in it 
+created another filed called dev.yml in Project_Dhrundhar folder and add some content in it too 
+
+cd Project_Dhrundhar
+git status
+git log --oneline
+git add .
+git commit -m "development variables added"
+git status
+git log --oneline
+if
+git switch main
+git switch development
+git checkout main
+git checkout development
+git checkout main
+git branch  qa
+or 
+git checkout -b qa (this command will create a new branch and switch to it)
+create qa.yml file in Project_Dhrundhar folder and add some content in it
+git add . 
+git commit -m "testing variables added"
+git branch
+git barnch -r
+git push -u origin qa
+
+
+git checkout main
+in pod.yml in project_dhrundhar folder add some chance in it as well as in service.yml file add some changes in it as well
+git status
+git add .
+git commit -m "changes in pod.yml and service.yml"
+git status
+git push origin main
+git checkout development
+git push origin development
+it should not push 
+it suppose to be
+git push -U origin development
+then it will push 
+git checkout qa
+
+
+
+abba dabba jabba 
