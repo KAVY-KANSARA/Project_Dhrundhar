@@ -1,0 +1,28 @@
+[33m6bc62e3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelopment[m[33m, [m[1;31morigin/development[m[33m)[m git fetch defination
+ Project_Dhrundhar/qa.yml      |  1 [32m+[m
+ Project_Dhrundhar/service.yml | 56 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ 2 files changed, 56 insertions(+), 1 deletion(-)
+[33m3df8cf9[m changed file name ingress.hyml to ingress.yml
+ Project_Dhrundhar/{ingress.hyml => ingress.yml} | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+[33m4d904b2[m pod defination update
+ Project_Dhrundhar/pod.yml | 4 [32m++++[m
+ 1 file changed, 4 insertions(+)
+[33mc609e48[m devlopment variables added
+ Project_Dhrundhar/dev.yml      | 0
+ Project_Dhrundhar/ingress.hyml | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+[33m1055735[m Added sample text to YAML files
+ Project_Dhrundhar/pod.yml     | 5 [32m++++[m[31m-[m
+ Project_Dhrundhar/service.yml | 6 [32m+++++[m[31m-[m
+ 2 files changed, 9 insertions(+), 2 deletions(-)
+[33mf43dfd1[m 3rd commit
+ Project_Dhrundhar/pod.yml | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[33ma5d1da1[m 2nd commit
+ Project_Dhrundhar/pod.yml | 3 [32m++[m[31m-[m
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[33m005b2cd[m first commit
+ Project_Dhrundhar/pod.yml     |  8 [32m++++++++[m
+ Project_Dhrundhar/service.yml | 11 [32m+++++++++++[m
+ 2 files changed, 19 insertions(+)
